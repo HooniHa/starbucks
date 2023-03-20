@@ -1,0 +1,109 @@
+.siginin{
+    margin-top: 120px;
+    padding: 100px 0 150px ;
+    background-image: url('../images/signin_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.siginin h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.siginin .siginin_card{
+    width: 500px;
+    background-color: #f6fff6;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #555;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.siginin .siginin_card form{
+    padding: 25px 30px;
+}
+
+.siginin .siginin_card h2{
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.siginin .siginin_card h2 span{
+    color: #006633;
+}
+
+.siginin .siginin_card input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+.siginin .siginin_card input[type="submit"]{
+    background-color: #006633;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.siginin .siginin_card p{
+    font-size: 12px;
+    color: #006633;
+    text-align: center;
+}
+
+
+.siginin .siginin_card .actions{
+    display: flex;
+}
+
+
+.siginin .siginin_card .actions a{
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px 0;
+    color: #555;
+    font-size: 14px;
+    position: relative;
+}
+
+.siginin .siginin_card .actions a
+
+.siginin .siginin_card .actions a:hover{
+    content: "";
+    width: 1px;
+    height: 14px;
+    background-color: #ddd;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.siginin .siginin_card .actions a:{
+    display: none;
+}
+
+.siginin .siginin_card .actions a:hover{
+    text-decoration: underline;
+}
